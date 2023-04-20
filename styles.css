@@ -1,0 +1,124 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+ul, li { list-style: none; }
+html, body { width: 100%; height: 100%; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+.text-center { text-align: center; }
+.wrap { width: 100%; height: 100%; }
+.left { width: 40%; background-image: url("assets/profile_girl.jpg"); background-size: cover; height: 100%; position: fixed; }
+.row { display: flex; flex-wrap: wrap; }
+.sidebar { width: 40%; }
+.container { width: 60%; margin: 0px auto; padding-left: 24px; box-sizing: border-box; padding-right: 40px; }
+.title { text-align: center; margin-top: 125px; margin-bottom: 32px; }
+.title h1 { font-size: 60px; }
+.title h3 { font-size: 20px; font-weight: 500; margin-bottom: 12px; }
+.title button { padding: 12px 20px; border: none; font-size: 19px; font-weight: 500; }
+.title button:hover { background-color: rgb(204, 202, 202); }
+.port-left { width: 50%; padding-right: 7px; }
+.port-right { width: 50%; padding-left: 7px; }
+.w-100 { width: 100%; }
+._1anh { padding-top: 7px; }
+.about { margin-top: 20px; }
+.about h2 { color: rgb(153, 146, 146); font-weight: 600; font-size: 26px; margin-bottom: 20px; }
+.about p { margin-top: 20px; font-weight: 600; font-size: 18px; line-height: 25px; letter-spacing: 0px; }
+.skills { margin: 15px 0px; }
+.skills h2 { font-size: 33px; font-weight: 600; color: rgb(153, 146, 146); }
+.price h2 { margin-bottom: 13px; }
+.photo { margin: 9px 0px; }
+.photo h3 { font-weight: 500; margin-bottom: 20px; margin-top: 20px; }
+.skills .percent { width: 100%; height: 40px; background-color: rgb(236, 240, 241); position: relative; }
+.skills .percent::after { content: "95%"; width: 95%; height: 40px; background-color: rgb(99, 110, 114); z-index: 1; position: absolute; text-align: center; line-height: 40px; }
+.skills .web .percent::after { content: "85%"; width: 85%; height: 40px; background-color: rgb(99, 110, 114); z-index: 1; position: absolute; text-align: center; line-height: 40px; }
+.skills .photoshop .percent::after { content: "80%"; width: 80%; height: 40px; background-color: rgb(99, 110, 114); z-index: 1; position: absolute; text-align: center; line-height: 40px; }
+.col-3 { width: 33.33%; }
+.number { margin-top: 50px; background-color: rgb(99, 110, 114); color: rgb(255, 255, 255); padding: 32px 0px; }
+.number .row { flex-wrap: nowrap; }
+.number p { font-size: 23px; }
+.skills .title { margin: 51px 0px 0px; text-align: left; }
+.col-2 { width: 10%; }
+.col-10 { width: 90%; }
+.repu-image .user { margin-bottom: 20px; }
+.repu-image .nameuser img { border-radius: 50%; }
+.repu-image .job { padding-left: 20px; }
+.repu-image .job h4 { font-size: 28px; font-weight: 500; }
+.repu-image .job span { font-size: 24px; color: rgb(153, 146, 146); font-weight: 500; }
+.repu-image .job p { font-size: 24px; font-weight: 500; color: rgb(153, 146, 146); padding-top: 12px; }
+.price table { width: 100%; }
+.price .table:first-child { padding-right: 6px; }
+.price .table:last-child { padding-left: 6px; }
+.table div:first-child { background-color: rgb(99, 110, 114); font-size: 26px; padding: 10px 0px; text-align: center; color: rgb(255, 255, 255); line-height: 34px; font-weight: 600; }
+.price .table .pro { background-color: rgb(0, 0, 0); }
+.table div { font-size: 18px; color: rgb(153, 146, 146); font-weight: 500; line-height: 46px; border: 1px solid rgb(153, 146, 146); text-align: center; }
+.table div.sale p:first-child { font-size: 23px; font-weight: 700; line-height: 12px; }
+.table div.sale { padding: 38px 0px 30px; }
+table div.sale p:first-child { font-size: 25px; }
+.col-6 { width: 50%; }
+.table div:last-child button { font-size: 19px; border: none; background-color: rgb(255, 255, 255); padding: 5px 20px; }
+.table div:last-child { padding: 24px 0px 19px; }
+.table div:last-child button:hover { background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); }
+.contact p { padding-top: 13px; }
+.contact p i { font-size: 33px; color: rgb(153, 146, 146); }
+.contact p span { color: rgb(153, 146, 146); font-size: 18px; font-weight: 600; padding-left: 20px; display: inline-block; }
+.map { width: 100%; height: 500px; background-image: url("assets/map.jpg"); background-size: cover; margin-top: 40px; }
+.contact p.text-form { font-size: 18px; font-weight: 700; color: rgb(153, 146, 146); margin-top: 16px; }
+.contact form input { width: 100%; height: 50px; display: block; margin-top: 14px; font-size: 16px; color: rgb(153, 146, 146); padding-left: 5px; }
+footer { padding: 100px 0px; background-color: rgb(240, 240, 240); }
+footer { text-align: center; }
+footer a i {font-size: 27px;color: rgb(99, 110, 114);letter-spacing: -4px;}
+footer a:nth-child(3) i{
+    border-radius: 50% 50%;
+}
+footer a:hover i { color: rgb(153, 146, 146);}
+footer p { font-size: 18px; color: rgb(0, 0, 0); font-weight: 600; line-height: 20px; }
+footer a:nth-child(3){
+    background-color:rgb(99, 110, 114);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    left: 2px;
+    top: -4px;
+}
+footer a:nth-child(3):hover {
+    background-color:rgb(153, 146, 146);
+}
+footer a:nth-child(3):after{
+    content:"\f2ab";
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color:#fff;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px){
+    .sidebar{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .title.re{
+        background-image: url(assets/profile_girl.jpg);
+        background-size: cover;
+        height: 800px;
+    }
+    .title h1{
+        padding-top: 43px;
+    }
+    .title h3{
+        color:blue;
+    }
+    .title.re button{
+        margin-top: 755px;
+    }
+    .port{
+        margin-top: 255px;
+    }
+    .col-2{
+        width: 30%;
+    }
+    .col-8{
+        width: 70%;
+    }
+
+}
